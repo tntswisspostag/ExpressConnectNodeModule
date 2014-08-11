@@ -1,12 +1,11 @@
 /* 
 module: index.js
-version: 0.1.0
+version: 0.1.1
 description: index module that needs to be required witin the application. All create functions are listed here. They return the object that
 is needed to call the services.
 
 */
 
-var Lib1 = require('./lib/lib1');
 var Tracking = require('./lib/tracking');
 var Shipping = require('./lib/shipping');
 var Labelling = require('./lib/labelling');
